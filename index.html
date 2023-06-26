@@ -11,39 +11,39 @@
 <header>App_Prjoect</header>
 
 <body>
-    <form>
-        <label>
-            <input type="text" placeholder="name" id="name" class = "form" required />
-        </label>
-        <label>
-            <input type="number" min="0" max="100.00" placeholder="0.00" id="price" class = "form" required />
-        </label>
-        <label>
-            <span>
-                <input type="radio" class = "form" id="stock" required />
-                <p class ="stock"></p>
-            </span>
-        </label>
-        <label>
-            <input type="text" placeholder="*not requred" id="image" class = "form"/>
-        </label>
-        <button id="submit"></button> 
-        <button id="clear"></button>
-    </form>
-    <div>
-        <img src = "assets/kissing.jpg">
-        <h2></h2>
-        <p class = "cost"></p>
-    </div>
-    <div>
-        <img src = "assets/kurma.jpg" class="largePic">
-        <h2></h2>
-        <p class = "cost"></p>
-    </div>
-    <div>
-        <img src = "assets/Uzumaki.jpg" class="largePic">
-        <h2></h2>
-        <p class = "cost"></p>
+    <div class="container">
+        <div class="wrapper">
+            <div class="box a">
+                <form>
+                    <label class="label">
+                        <input type="text" class="form" id="name" placeholder="ie. Sam Smith" required />
+                    </label>
+                    <label class="label">
+                        <input type="number" min="0" max="100.00" class="form" id="price" placeholder="0.00" required />
+                    </label>
+                    <label class="label">
+                        <span>
+                            <input type="checkbox" class="form" required />
+                            <p class="inStock"></p>
+                        </span>
+                    </label>
+                </form>
+            </div>
+            <div class="box b">
+                <div>
+                    <img id="img1">
+                    <p id ="img1Picture"></p>
+                </div>
+                <div>
+                    <img id="img2">
+                    <p id ="img2Picture"></p>
+                </div>
+                <div>
+                    <img id="img3">
+                    <p id ="img3Picture"></p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

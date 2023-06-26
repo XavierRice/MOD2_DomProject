@@ -1,6 +1,30 @@
-body{
-    background-color: crimson;
+.wrapper {
     display: grid;
-}
-
-
+    grid-template-columns: 40% 60%;	
+  }
+  
+  .box {
+          background-color: #444;
+          color: #fff;
+          padding: 1em;
+  }
+  
+  * {
+      box-sizing: border-box;
+  }
+  .a {
+      background-color: goldenrod;
+  }
+  .b {
+      background-color: blueviolet;
+      grid-template-rows: 33%, 33%, 33%;
+  }
+  body {
+      margin: 2em;
+      background-color: light-grey;
+  }
+  
+  .container {
+      background-color: green;
+      height: 100px;
+  }
